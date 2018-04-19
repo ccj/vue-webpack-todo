@@ -16,17 +16,42 @@
 		The value might be either "development" (reloading when templates change) or 
 		"deployment". If no configuration is found, "development" is the default. -->
 
+	
 	<filter>
-		<filter-name>wicket.wicketdemo</filter-name>
+		<filter-name>wicket.HomePage</filter-name>
 		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
 		<init-param>
 			<param-name>applicationClassName</param-name>
-			<param-value>com.ccjin.WicketApplication</param-value>
+			<param-value>com.wicket.homepage.WicketApplication</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<filter-name>wicket.HelloWorld</filter-name>
+		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
+		<init-param>
+			<param-name>applicationClassName</param-name>
+			<param-value>com.wicket.helloworld.HelloworldApplication</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<filter-name>wicket.Echo</filter-name>
+		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
+		<init-param>
+			<param-name>applicationClassName</param-name>
+			<param-value>com.wicket.echo.EchoApplication</param-value>
 		</init-param>
 	</filter>
 
 	<filter-mapping>
-		<filter-name>wicket.wicketdemo</filter-name>
-		<url-pattern>/*</url-pattern>
+		<filter-name>wicket.HomePage</filter-name>
+		<url-pattern>/homepage</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>wicket.HelloWorld</filter-name>
+		<url-pattern>/Helloworld</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>wicket.Echo</filter-name>
+		<url-pattern>/Echo</url-pattern>
 	</filter-mapping>
 </web-app>

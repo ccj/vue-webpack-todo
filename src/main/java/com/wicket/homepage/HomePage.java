@@ -1,4 +1,4 @@
-package com.ccjin;
+package com.wicket.homepage;
 
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.markup.html.basic.Label;

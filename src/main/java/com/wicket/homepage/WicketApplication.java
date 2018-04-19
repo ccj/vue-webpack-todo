@@ -1,4 +1,4 @@
-package com.ccjin;
+package com.wicket.homepage;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;

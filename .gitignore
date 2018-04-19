@@ -3,3 +3,7 @@
 *.iws
 *.iml
 *.ipr
+
+.settings
+.classpath
+.project

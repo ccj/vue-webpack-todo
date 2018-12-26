@@ -1,0 +1,17 @@
+{
+  "name": "vue-webpack-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jasonccj",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "vue": "^2.5.21",
+    "vue-loader": "^15.4.2",
+    "webpack": "^4.28.2"
+  }
+}

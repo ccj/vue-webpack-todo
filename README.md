@@ -1,4 +1,4 @@
-# 项目文档记录
+# 项目搭建记录
 ## 1.vue+webpack项目工程配置
 npm init    初始化一个npm项目   
 npm i webpack vue vue-loader  安装webpack和vue,使用vue要安装vue-loader   

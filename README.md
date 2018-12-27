@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/vue%2Bwebpack.png" width="500px" />
+</div>
+
 # 项目搭建记录
 <font color=#0099ff size=3 face="黑体">代码中具体细节都有详细注释</font>
 ## 1.vue+webpack项目工程配置

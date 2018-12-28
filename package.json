@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Jasonccj",
   "license": "ISC",
   "dependencies": {
-    "css-loader": "^2.1.0",
-    "vue": "^2.5.21",
-    "vue-loader": "^15.4.2",
-    "webpack": "^4.28.2"
-  }
+    "css-loader": "^0.28.7",
+    "vue": "^2.5.13",
+    "vue-loader": "^13.6.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {}
 }

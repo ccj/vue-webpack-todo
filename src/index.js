@@ -2,6 +2,7 @@ import Vue from 'vue'   //引用vue类库
 import App from './app.vue'  
 
 import './assets/styles/test.css'
+import './assets/styles/test-stylus.styl'
 import './assets/images/bg.png'
 
 const root = document.createElement('div')  //创建div节点

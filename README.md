@@ -24,3 +24,6 @@ webpack.config.js同样设置出口文件bundle.js及存放路径
 webpack对其他类型的文件处理,可在配置文件中配置rules规则.
 同样根据配置中的处理的loader都要安装.
 npm i style-loader@0.19.1 url-loader@0.6.2 file-loader@1.1.6
+
+stylus的css预处理器 npm i stylus-loader@3.0.1 stylus@0.54.5
+同理其他的像sass,less等其他的预处理器都可以类似的方法去使用

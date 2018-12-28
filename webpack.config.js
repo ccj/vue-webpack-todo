@@ -20,6 +20,14 @@ module.exports = {
                 ]
             },
             {
+                test: /\.styl/,
+                use: [
+                    'style-loader',                     //将css写入到html中去
+                    'css-loader',                       //css-loader处理css
+                    'stylus-loader'                     //处理stylus的css预处理器的问题件,转换成css后,抛给上一层的css-loader
+                ]
+            },
+            {
                 test: /\.(gif|jpg,jpeg|png|svg)$/,      //处理图片
                 use: [
                     {                                   //loader是可以配置选项的,如下options

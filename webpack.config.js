@@ -57,13 +57,20 @@ const config = {
 }
 
 if(isDev){                                              //如果是测试环境下的一些配置
+    config.devtool = '#cheap-module-eval-source-map'    //官方推荐使用这个配置,作用是在浏览器中调试时,显示的代码和我们的项目中的代码会基本相似,而不会显示编译后的代码,以致于我们调试连自己都看不懂                                      
     config.devServer = {                                //这个devServer的配置是在webpack2.x以后引入的,1.x是没有的
         port: 8000,                                     //访问的端口号
-        host: '0.0.0.0',                                //这样设置你可以通过127.0.0.1或则localhost去访问
+        host: '127.0.0.1',                              //可以设置0.0.0.0 ,这样设置你可以通过127.0.0.1或则localhost去访问
         overlay: {
             errors: true,                               //编译中遇到的错误都会显示到网页中去
-        }
-    }
+        },
+        // open: true ,                                 //项目启动时,会默认帮你打开浏览器
+        hot: true                                       //在单页面应用开发中,我们修改了代码后是整个页面都刷新,开启hot后,将只刷新对应的组件
+    },
+    config.plugins.push(                                //添加两个插件用于hot:true的配置
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoEmitOnErrorsPlugin()
+    )
 }  
 
 module.exports = config                                 //声明一个config的配置,用于对外暴露

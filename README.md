@@ -2,7 +2,7 @@
     <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/vue%2Bwebpack.png" width="500px" />
 </div>
 
-# 项目搭建文档
+# 项目搭建文档(每步代码配置带有详细注释)
 项目地址:https://github.com/Jasonccj/vue-webpack-todo   
 同时可以结合慕课网课程: https://www.imooc.com/learn/935   
 由于本代码是采用webpack3.10.0. 与webpack4.x有很多差异性,伙伴们不要因为版本问题而停滞不前   
@@ -52,7 +52,7 @@ npm i cross-env@5.1.3
 npm i html-webpack-plugin@2.30.1   
 完成webpack.config.js中后,你便可以使用npm run dev见证奇迹的时刻了
 
-# 配置部分截图展示(仅用于展示,详见代码)
+# 配置部分截图展示(仅用于展示,每步代码配置带有详细注释)
 <div align="center  ">
     <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/img/)N4%5D%24KNHIWYKTK2%25%7D%40%40K_K6.png" width="500px" />
 </div>

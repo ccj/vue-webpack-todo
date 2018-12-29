@@ -1,6 +1,11 @@
 const path = require('path')                            //path是Nodejs中的基本包,用来处理路径
+const HTMLPlugin = require('html-webpack-plugin')       //引入html-webpack-plugin
+const webpack = require("webpack")                      //引入webpack
 
-module.exports = {
+const isDev = process.env.NODE_ENV === "development"    //判断是否为测试环境,在启动脚本时设置的环境变量都是存在于process.env这个对象里面的
+
+const config = {
+    target: "web",                                      //设置webpack的编译目标是web平台
     entry: path.join(__dirname,'src/index.js'),         //声明js文件入口,__dirname就是我们文件的根目录,用join拼接
     output:{                                            //声明出口文件
         filename: 'bundle.js',                          //将挂载的App全部打包成一个bundle.js,在浏览器中可以直接运行的代码  
@@ -10,7 +15,7 @@ module.exports = {
         rules:[                                         //所以针对不同类型的文件,我们定义不同的识别规则,最终目的都是打包成js文件
             {
                 test: /\.vue$/,
-                loader: 'vue-loader'
+                loader: 'vue-loader'                    //处理.vue文件
             },
             {
                 test: /\.css$/,
@@ -40,5 +45,25 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+    plugins:[
+        new webpack.DefinePlugin({                      //主要作用是在此处可以根据isdev配置process.env,一是可以在js代码中可以获取到process.env,
+            'process.env':{                             //二是webpack或则vue等根据process.env如果是development,会给一些特殊的错误提醒等,而这些特殊项在正式环境是不需要的
+                NODE_ENV: isDev ? '"development"' : '"production"'
+            }
+        }),
+        new HTMLPlugin()                                //引入HTMLPlugin    
+    ]
 }
+
+if(isDev){                                              //如果是测试环境下的一些配置
+    config.devServer = {                                //这个devServer的配置是在webpack2.x以后引入的,1.x是没有的
+        port: 8000,                                     //访问的端口号
+        host: '0.0.0.0',                                //这样设置你可以通过127.0.0.1或则localhost去访问
+        overlay: {
+            errors: true,                               //编译中遇到的错误都会显示到网页中去
+        }
+    }
+}  
+
+module.exports = config                                 //声明一个config的配置,用于对外暴露

@@ -3,8 +3,10 @@
 </div>
 
 # 项目搭建文档
+项目地址:https://github.com/Jasonccj/vue-webpack-todo
+同时可以结合慕课网课程: https://www.imooc.com/learn/935
 由于本代码是采用webpack3.10.0. 与webpack4.x有很多差异性,伙伴们不要因为版本问题而停滞不前
-具体版本可以在package.json中查看,具体细节都有详细注释,欢迎小伙伴们提出宝贵的意见,一起交流
+具体版本可以在package.json中查看,具体细节都有超详细注释,欢迎小伙伴们提出宝贵的意见,一起交流,让我们一起提高我们的前端技能
 
 ## 1.vue+webpack项目工程配置
 ### 1.1 项目基本配置

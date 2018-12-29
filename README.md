@@ -3,7 +3,9 @@
 </div>
 
 # 项目搭建文档
-<font color=#0099ff size=3 face="黑体">代码中具体细节都有详细注释</font>
+由于本代码是采用webpack3.10.0. 与webpack4.x有很多差异性,伙伴们不要因为版本问题而停滞不前
+具体版本可以在package.json中查看,具体细节都有详细注释,欢迎小伙伴们提出宝贵的意见,一起交流
+
 ## 1.vue+webpack项目工程配置
 ### 1.1 项目基本配置
 npm init    初始化一个npm项目   
@@ -46,3 +48,18 @@ npm i cross-env@5.1.3
 ```
 在webpack.config.js配置好我们的测试环境后,我们还需要引入一个html-webpack-plugin,用于将我们打包好后的js融入到我们的HTml中去
 npm i html-webpack-plugin@2.30.1
+完成webpack.config.js中后,你便可以使用npm run dev见证奇迹的时刻了
+
+# 配置部分截图展示(仅用于展示,详见代码)
+<div align="center  ">
+    <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/img/)N4%5D%24KNHIWYKTK2%25%7D%40%40K_K6.png" width="500px" />
+</div>
+
+# 最后
+- 喜欢的记得点个star.鼓励一下,谢谢!
+- 微信 cuixianseni
+- qq群号 424072183
+
+<div align="left">
+    <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/img/mpvue%2Cjava%2C%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="200px" />
+</div>

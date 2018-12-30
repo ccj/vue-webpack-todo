@@ -54,6 +54,16 @@ npm i cross-env@5.1.3
 npm i html-webpack-plugin@2.30.1   
 完成webpack.config.js中后,你便可以使用npm run dev见证奇迹的时刻了
 
+##项目实战
+npm i post i postcss-loader@2.0.9 autoprefixer@7.2.3 babel-loader@7.1.2 babel-core@6.26.0  
+新建postcss和babel的配置文件 并配置这两个文件
+
+
+
+
+
+
+
 # 配置部分截图展示(仅用于展示,每步代码配置带有详细注释)
 <div align="center  ">
     <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/img/)N4%5D%24KNHIWYKTK2%25%7D%40%40K_K6.png" width="500px" />

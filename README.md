@@ -4,11 +4,13 @@
 
 # 项目搭建文档(每步代码配置带有详细注释)
 项目地址:https://github.com/Jasonccj/vue-webpack-todo   
-同时可以结合慕课网课程: https://www.imooc.com/learn/935   
-由于本代码是采用webpack3.10.0. 与webpack4.x有很多差异性,伙伴们不要因为版本问题而停滞不前   
-具体版本可以在package.json中查看,具体细节都有超详细注释,欢迎小伙伴们提出宝贵的意见,一起交流,让我们一起提高我们的前端技能
+博客地址:https://juejin.im/post/5c26e938e51d455e860dae5a      
+慕课地址:https://www.imooc.com/learn/935   
 
 ## 1.vue+webpack项目工程配置
+
+由于本代码是采用webpack3.10.0. 与webpack4.x有很多差异性,伙伴们不要因为版本问题而停滞不前   
+具体版本可以在package.json中查看,具体细节都有超详细注释,欢迎小伙伴们提出宝贵的意见,一起交流,让我们一起提高我们的前端技能
 ### 1.1 项目基本配置
 npm init    初始化一个npm项目   
 npm i webpack@3.10.0 vue@2.5.13 vue-loader@13.6.0  安装webpack和vue,使用vue要安装vue-loader   

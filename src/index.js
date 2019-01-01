@@ -1,9 +1,12 @@
 import Vue from 'vue'   //引用vue类库
 import App from './app.vue'  
 
-import './assets/styles/test.css'
-import './assets/styles/test-stylus.styl'
-import './assets/images/bg.png'
+// import './assets/styles/test.css'
+// import './assets/styles/test-stylus.styl'
+// import './assets/images/bg.png'
+// 开发todo应用时用不到以上这些,故注释掉
+
+import './assets/styles/global.styl'
 
 const root = document.createElement('div')  //创建div节点
 document.body.appendChild(root);            //将div节点添加到body下

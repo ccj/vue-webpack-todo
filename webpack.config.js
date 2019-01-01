@@ -21,13 +21,13 @@ const config = {
                 test: /\.jsx$/,
                 loader: 'babel-loader'                  //处理jsx文件
             },
-            {
-                test: /\.css$/,
-                use: [
-                    'style-loader',                     //将css的样式写入到html里面去
-                    'css-loader'                        //处理css文件  
-                ]
-            },
+            // {
+            //     test: /\.css$/,
+            //     use: [
+            //         'style-loader',                     //将css的样式写入到html里面去
+            //         'css-loader'                        //处理css文件  
+            //     ]
+            // },
             {
                 test: /\.styl/,
                 use: [
@@ -43,7 +43,7 @@ const config = {
                 ]
             },
             {
-                test: /\.(gif|jpg,jpeg|png|svg)$/,      //处理图片
+                test: /\.(gif|jpg|jpeg|png|svg)$/,      //处理图片
                 use: [
                     {                                   //loader是可以配置选项的,如下options
                         loader: 'url-loader',           //url-loader实际上依赖于file-loader,file-loader处理完文件可以保存为一个文件供处理

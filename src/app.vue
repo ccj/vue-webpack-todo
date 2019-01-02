@@ -1,14 +1,17 @@
 <template>
     <div id="app">
-        <div id="cover">
-
-        </div>
+        <div id="cover"></div>
+        <Header></Header>
     </div>
 </template>
 
 <script>
-export default {
+import Header from './todo/header.vue'
 
+export default {
+    components: {
+        Header,
+    }
 }
 </script>
 

@@ -24,3 +24,12 @@ field|将元素呈现为输入字段。
 所有主流浏览器都不支持 appearance 属性。   
 Firefox 支持替代的 -moz-appearance 属性。   
 Safari 和 Chrome 支持替代的 -webkit-appearance 属性。   
+
+## 3.disply: flex布局 justify-content
+[参考链接](http://www.runoob.com/try/playit.php?f=playcss_justify-content&preval=space-between)
+
+## 4.font-smoothing 用于设置字体的抗锯齿或光滑度的属性。   
+它有三个属性值:   
+none ------ 对低像素的文本比较好    
+subpixel-antialiased------默认值    
+antialiased ------抗锯齿很好    

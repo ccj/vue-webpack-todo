@@ -70,7 +70,7 @@ npm i post i postcss-loader@2.0.9 autoprefixer@7.2.3 babel-loader@7.1.2 babel-co
 </div>
 
 # 小计
-- XIAOJI.md 用于记录一些笔记
+- [XIAOJI.md 用于记录一些笔记](https://github.com/Jasonccj/vue-webpack-todo/blob/master/XIAOJI.md)
 
 # 最后
 - 喜欢的记得点个star.鼓励一下,谢谢!

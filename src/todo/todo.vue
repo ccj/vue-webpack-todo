@@ -20,7 +20,7 @@ export default {
             todo: {
                 id:0,
                 content: 'this is todo',
-                completed: flase
+                completed: false
             }
         }
     },
@@ -53,8 +53,9 @@ export default {
     outline none 
     color inherit 
     box-sizing border-box
-    font-smmothing antialiased
+    font-smoothing antialiased
     padding 16px 16px 16px 36px
+    border none
     box-shadow inset 0 -2px 1px rgba(0, 0, 0, 0.03)
     
 </style>

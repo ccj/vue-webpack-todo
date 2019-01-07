@@ -54,13 +54,19 @@ npm i cross-env@5.1.3
 npm i html-webpack-plugin@2.30.1   
 完成webpack.config.js中后,你便可以使用npm run dev见证奇迹的时刻了
 
-##项目实战
+## 项目实战
 npm i post i postcss-loader@2.0.9 autoprefixer@7.2.3 babel-loader@7.1.2 babel-core@6.26.0  
 新建postcss和babel的配置文件 并配置这两个文件
 
 
+## 项目业务
+详见源码
 
+## 配置css单独分离打包及其他一些测试和生产环境的区别
+安装extract-text-webpack-plugin   
+npm i extract-text-webpack-plugin@3.0.2
 
+## 打包类库代码及hash优化
 
 
 

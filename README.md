@@ -69,6 +69,9 @@ npm i post i postcss-loader@2.0.9 autoprefixer@7.2.3 babel-loader@7.1.2 babel-co
     <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/img/)N4%5D%24KNHIWYKTK2%25%7D%40%40K_K6.png" width="500px" />
 </div>
 
+# 小计
+- XIAOJI.md 用于记录一些笔记
+
 # 最后
 - 喜欢的记得点个star.鼓励一下,谢谢!
 - 微信 cuixianseni

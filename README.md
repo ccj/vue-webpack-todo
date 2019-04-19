@@ -1,5 +1,5 @@
 <div align="center  ">
-    <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/vue%2Bwebpack.png" width="500px" />
+    <img src="https://jasonccj-1258779086.cos.ap-beijing.myqcloud.com/img/GitHub/vue-webpack-todo/vue%2Bwebpack.png" width="500px" />
 </div>
 
 # 项目搭建文档(每步代码配置带有详细注释)

@@ -3,7 +3,7 @@
 </div>
 
 # 项目搭建文档(每步代码配置带有详细注释)
-线上展示:http://118.24.144.217/   
+线上展示:http://118.24.232.149:8081/
 项目地址:https://github.com/Jasonccj/vue-webpack-todo   
 博客地址:https://juejin.im/post/5c26e938e51d455e860dae5a      
 慕课地址:https://www.imooc.com/learn/935   
@@ -73,7 +73,7 @@ npm i extract-text-webpack-plugin@3.0.2
 
 # 配置部分截图展示(仅用于展示,每步代码配置带有详细注释)
 <div align="center  ">
-    <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/img/)N4%5D%24KNHIWYKTK2%25%7D%40%40K_K6.png" width="500px" />
+    <img src="https://jasonccj-1258779086.cos.ap-beijing.myqcloud.com/img/GitHub/vue-webpack-todo/xiangxi.png" width="500px" />
 </div>
 
 # 小计
@@ -85,5 +85,5 @@ npm i extract-text-webpack-plugin@3.0.2
 - qq群号 424072183
 
 <div align="left">
-    <img src="https://jason-1255999874.cos.ap-beijing.myqcloud.com/img/mpvue%2Cjava%2C%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="200px" />
+    <img src="https://jasonccj-1258779086.cos.ap-beijing.myqcloud.com/img/GitHub/vue-webpack-todo/fenxiang.png" width="200px" />
 </div>
